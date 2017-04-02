@@ -1,0 +1,32 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: #F4F7F7;
+}
+
+h1 {
+  text-align: center;
+  color:black;
+  font-size: 50px;
+  letter-spacing: 3.5px;
+}
+
+
+ul {
+  text-align: center;
+  padding:20px;
+  list-style: none;
+}
+
+li {
+  margin:10px;
+  padding: 2px;
+}
+
+#main, #summary {
+  align-items: center;
+  background-color:#AACFD0;
+  box-shadow: 4px 4px #5DA0A2;
+  margin: 10px 40px;
+  border: 2px solid #34495E;
+  border-radius: 10px;
+}

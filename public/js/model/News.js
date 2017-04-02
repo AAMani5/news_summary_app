@@ -9,10 +9,21 @@
   }
 
   News.prototype.getSummary = function () {
-    // use api to get summary & move the printing to seperate view
-    return "<img src='" + this.image + "'>"+
-    "<br><a href='" + this.webUrl +"'>Click here for detailed news :)</a>"+
-    "<p>"+ this.summary +"</p>";
+    // will need to use the summary api
+     return this.summary;
   };
+
+  News.prototype.getWebUrl = function () {
+    return this.webUrl;
+  };
+
+  News.prototype.getImage = function () {
+    return this.image;
+  };
+
+  News.prototype.getWebTitle = function () {
+    return this.webTitle;
+  };
+
   exports.News = News;
 })(this);

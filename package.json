@@ -6,6 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ashwini Mani",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "new_summary_app"
+  },
+  "keywords": [
+    "news"
+  ],
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
 }

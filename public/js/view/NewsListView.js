@@ -8,7 +8,7 @@
   NewsListView.prototype.createHTML = function () {
     var newslistview = this;
     var html = this.newslist.allNews().map(function(news, index){
-      return newslistview._wrapHTML(index, news.webTitle, news.image);
+      return newslistview._wrapHTML(index, news.getWebTitle(), news.getImage());
     }).join('');
     return html;
   };

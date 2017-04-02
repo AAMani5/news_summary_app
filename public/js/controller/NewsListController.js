@@ -43,7 +43,8 @@
     var newslist = this.newslist;
     window.onhashchange = function() {
       var index = document.URL.split('#notes/')[1];
-      var summary = newslist.allNews()[index].getSummary();
+      var news = newslist.allNews()[index];
+      var summary = new SingleNewsView(news).summaryHTML();
       console.log(summary);
       document.getElementById('summary').innerHTML = summary;
     };

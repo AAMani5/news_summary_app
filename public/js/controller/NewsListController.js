@@ -11,7 +11,7 @@
     var newscontroller = this;
 
 
-    httpRequest.open('GET','https://content.guardianapis.com/search?q=debate%20AND%20economy&tag=politics/politics&from-date=2014-01-01&show-fields=thumbnail&api-key=test',true);
+    httpRequest.open('GET','https://content.guardianapis.com/search?q=debate%20AND%20economy&tag=politics/politics&from-date=2017-01-01&show-fields=thumbnail&show-blocks=all&api-key=test',true);
 
     httpRequest.send();
 

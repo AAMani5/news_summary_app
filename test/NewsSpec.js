@@ -9,26 +9,26 @@ var news;
 
 function testGetSummaryFunction(){
   news = new News(mockNewsObject);
-  actual = news.getSummary();
-  expected = "This is a summary";
+  var actual = news.getSummary();
+  var expected = "This is a summary";
   assert.isEqual(actual, expected);
 }
 
 function testGetUrlFunction(){
-  actual = news.getWebUrl();
-  expected = "http://somerandomurl.com";
+  var actual = news.getWebUrl();
+  var expected = "http://somerandomurl.com";
   assert.isEqual(actual, expected);
 }
 
 function testGetImageFunction(){
-  actual = news.getImage();
-  expected = "image";
+  var actual = news.getImage();
+  var expected = "image";
   assert.isEqual(actual, expected);
 }
 
 function testGetWebTitleFunction(){
-  actual = news.getWebTitle();
-  expected = "This is the title";
+  var actual = news.getWebTitle();
+  var expected = "This is the title";
   assert.isEqual(actual, expected);
 }
 

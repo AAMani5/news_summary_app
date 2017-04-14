@@ -1,7 +1,7 @@
 (function(exports){
   'use strict';
 
-  function NewsList(newsObject) {
+  function NewsList() {
     this.newslist = [];
   }
 

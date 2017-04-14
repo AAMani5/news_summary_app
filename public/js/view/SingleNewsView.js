@@ -2,7 +2,7 @@
   'use strict';
 
   function SingleNewsView(news) {
-    this.news = news
+    this.news = news;
   }
 
   SingleNewsView.prototype.summaryHTML = function () {
